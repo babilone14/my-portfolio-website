@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phoppisit Thammathorn - Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#video-intro">Video</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#future-projects">Future Projects</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="/images/HomeImage.jpg" alt="Profile Image">
+    </div>
+    <div class="home-content">
+      <h3>Hello, My name is</h3>
+      <h1>Phoppisit Thammathorn</h1>
+      <div class="gpa-grid">
+        <div class="gpa-item">
+          <span class="subject">Mathematics</span>
+          <span class="grade">4.00</span>
+        </div>
+        <div class="gpa-item">
+          <span class="subject">English</span>
+          <span class="grade">4.00</span>
+        </div>
+        <div class="gpa-item">
+          <span class="subject">Physics</span>
+          <span class="grade">3.75</span>
+        </div>
+      </div>
+
+      <p><br>ผมอยากเป็น Software Engineer เพราะผมชอบการเขียนโค้ดและคิดิศาสตร์ครับ
+        สนใจการสร้างสรรค์สิ่งใหม่ ๆ ที่สามารถใช้งานได้จริง
+        ชอบผสมผสานความคิดสร้างสรรค์เข้ากับเทคโนโลยี
+        มีความสนใจด้าน Data และ AI ที่สามารถต่อยอดจากสายงานนี้ได้
+        รวมถึงยังมองว่างานนี้คือการแก้ปัญหาและพัฒนาตนเองอย่างต่อเนื่องซึ่งสอดคล้องกับตัวตนและเป้าหมายของผมครับ
+      </p>
+      <div class="social-media">
+        <a href="https://www.facebook.com/phoppisit.thammathorn/"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/nuipoieiei?igsh=MWFyeGc0Mm9sNzhuOQ=="><i
+            class="bx bxl-instagram-alt"></i></a>
+        <a href="https://github.com/babilone14"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-intro" id="video-intro">
+    <div class="video-container">
+      <h2 class="heading">Video <span>Introduction</span></h2>
+      <div class="video-content">
+        <div class="video-wrapper">
+          <div class="video-player">
+            <video id="intro-video" controls poster="/images/cover.webp" preload="metadata">
+              <source src="/images/vdo.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">
+              <div class="play-button" id="play-btn">
+                <i class="bx bx-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-info">
+            <h3>พักชมสิ่งที่น่าสนใจสักครู่ครับ</h3>
+            <p>ในวิดีโอนี้ผมจะมาแนะนำตัวเองและเล่าเรื่องเกี่ยวกับตัวผม
+              รวมถึงประสบการณ์และแรงบันดาลใจที่ทำให้ผมต้องการเรียนรู้เทคโนโลยีต่าง ๆ ครับผม</p>
+
+            <div class="video-stats">
+              <div class="stat-item">
+                <i class="bx bx-time"></i>
+                <span>Duration: 3:45</span>
+              </div>
+              <div class="stat-item">
+                <i class="bx bx-calendar"></i>
+                <span>Updated: September 2025</span>
+              </div>
+            </div>
+
+            <div class="video-highlights">
+              <h4>คุณจะได้รับอะไรบ้างจากวิดีโอนี้ :</h4>
+              <ul>
+                <li><i class="bx bx-check"></i> รู้จักกับตัวผม</li>
+                <li><i class="bx bx-check"></i> เป้าหมายและความกันในอนาคต</li>
+                <li><i class="bx bx-check"></i> ทักษะและความสามารถ</li>
+                <li><i class="bx bx-check"></i> โปรเจ็กต์ที่ภาคภูมิใจ</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-fallback" id="video-fallback" style="display: none;">
+          <div class="fallback-content">
+            <i class="bx bx-video-off"></i>
+            <h3>Video currently unavailable</h3>
+            <p>The introduction video is being updated. Please check back later or explore other sections to learn more
+              about me!</p>
+            <a href="#about" class="fallback-btn">Learn More About Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="/images/AboutImage.png" alt="About Image">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>ผมมีความมุ่งมั่นที่จะเป็น Software Engineer
+        เพราะตลอดเวลาที่ผ่านมาผมได้ลงมือสร้างผลงานจริงทั้งแอปพลิเคชั่นอย่างง่าย
+        My School Planner รวมถึงการทำ portfolio website นี้ที่ช่วยพัฒนาทักษะการเขียนโค้ด
+        การแก้ปัญหา และการคิดสร้างสรรค์
+        ประสบการณ์เหล่านี้สะท้อนให้เห็นถึงความตั้งใจในการเรียนรู้และพัฒนาตัวผมเองอย่างต่อเนื่อง
+      </p>
+      <p>สำหรับเป้าหมายในอนาคตของผม ผมจะต่อยอดทักษะทั้งด้านการพัฒนา Software เต็มรูปแบบ การทำงานกับ Data และ AI
+        เพื่อสร้างเทคโนโลยีหรือนวัตกรรมที่มีประโยชน์ต่อสังคมรวมถึงยกระดับชีวิตของผู้คนทั่วไป ทั้งหมดนี้ทำให้ผมอยากเป็น
+        Software Engineer นั่นเองครับ
+      </p>
+      <h3>Areas of Interest</h3>
+      <div class="interests-grid">
+        <div class="interest-item">
+          <i class="bx bx-data"></i>
+          <span>Data Analytics</span>
+        </div>
+        <div class="interest-item">
+          <i class="bx bx-brain"></i>
+          <span>Machine Learning</span>
+        </div>
+        <div class="interest-item">
+          <i class="bx bx-code-alt"></i>
+          <span>Software Development</span>
+        </div>
+        <div class="interest-item">
+          <i class="bx bx-mobile-alt"></i>
+          <span>Mobile App Development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>skills</span></h2>
+    <div class="skills-container">
+      <div class="skills-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <div class="skills-details">
+          <p>ผมมีทักษะในการสร้างเว็บไซต์พื้นฐานโดยใช้ HTML, CSS และ JavaScript ผ่านการทำ Portfolio Website
+            ที่แสดงถึงความสามารถในการจัดโครงสร้างหน้าเว็บ ออกแบบการแสดงผล และเพิ่มฟังก์ชันการทำงานเชิงโต้ตอบ
+            ซึ่งถือเป็นพื้นฐานสำคัญในการต่อยอดสู่การพัฒนาเว็บขั้นสูงหรือ Full-stack Development นั่นเองครับ
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <i class="bx bx-mobile-alt"></i>
+        <h3>Mobile Development</h3>
+        <div class="skills-details">
+          <p>ผมเคยสร้างแอป My School Planner ด้วย Google AppSheet ซึ่งสะท้อนความเข้าใจการออกแบบระบบ
+            การจัดการข้อมูล และการสร้างฟังก์ชันการทำงานให้ตอบโจทย์ผู้ใช้ ถึงแม้จะเป็น Low-code Platform
+            แต่ก็ช่วยให้ผมมีทักษะการคิดเชิงโครงสร้างและการพัฒนาแอปพลิเคชันจริงได้ครับ
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <i class="bx bx-data"></i>
+        <h3>Data Analysis</h3>
+        <div class="skills-details">
+          <p>ผมมีประสบการณ์วิเคราะห์ข้อมูล เช่น การหาปัจจัยที่มีผลต่อเงินเดือนแรกเข้า ซึ่งแสดงถึงการใช้เหตุผลเชิงตรรกะ
+            การจัดการข้อมูล และการตีความเชิงสถิติ ทักษะนี้ทำให้ผมสามารถพัฒนาต่อไปสู่สาย
+            Data Analytics, Machine Learning หรือ AI Engineering ได้ครับ
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <i class="bx bx-spreadsheet"></i>
+        <h3>Excel</h3>
+        <div class="skills-details">
+          <p>ผมมีทักษะการใช้ Microsoft Excel ในการจัดการและวิเคราะห์ข้อมูล
+            โดยใช้สูตร ฟังก์ชัน และการสร้าง Pivot Table เพื่อสรุปผลที่ซับซ้อนให้อ่านง่ายมากขึ้น เคยใช้ Excel
+            ในการวิเคราะห์ข้อมูลจากโครงการวิจัย เช่น การหาปัจจัยที่มีผลต่อผลลัพธ์บางอย่าง และการสร้างกราฟสรุปข้อมูล
+            ซึ่งเป็นประโยชน์ต่อการสื่อสารเชิงข้อมูล และยังช่วยให้ผมเข้าใจหลักการ Data Analysis เบื้องต้นมากขึ้นด้วยครับ
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <i class="bx bx-terminal"></i>
+        <h3>Coding</h3>
+        <div class="skills-details">
+          <p>ผมมีทักษะการเขียนโปรแกรมด้วยภาษา C, C#, Python และ JavaScript
+            โดยเคยใช้ในการแก้โจทย์การแข่งขัน และการทำโปรเจ็กต์ส่วนตัว
+            ตัวอย่างเช่นการสร้างโปรแกรมคำนวดเกรดด้วย python สิ่งนี้ช่วยพัฒนาทักษะการคิดเชิงตรรกะ
+            การแก้ปัญหาอย่างเป็นระบบ และการออกแบบโค้ดที่สามารถนำไปต่อยอดสู่การเรียนรู้ด้าน Software Development และ Data
+            Science ได้ครับ
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+
+        <h3>My School Planner</h3>
+        <img src="images/Project1.png" alt="My School Planner">
+        <p>โปรเจ็กต์ My School Planner เกิดจากปัญหาการจัดการการบ้าน
+          ตารางสอบ และกิจกรรมที่ทำให้ผมมักหลงลืมงานบางส่วน จึงสร้างแอปต้นแบบด้วย
+          Google AppSheet เชื่อมต่อฐานข้อมูลจาก Google Sheet และออกแบบฟีเจอร์
+          Homework, Daily Task, Calendar, Timetable, Project และ Note
+          ผลลัพธ์คือช่วยให้ผมจัดการเวลาและภาระงานได้เป็นระบบมากขึ้นครับ</p>
+        <div class="tools-section">
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="bx bx-spreadsheet"></i>
+              <span>Google AppSheet</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-table"></i>
+              <span>Google Sheets</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+
+        <h3>Portfolio Website</h3>
+        <img src="images/Project2.png" alt="Portfolio Website">
+        <p>โปรเจ็กต์ Portfolio Website ผมสร้างเพื่อแสดงผลงานและข้อมูลในการสมัครมหาวิทยาลัย
+          โดยใช้ HTML, CSS และ JavaScript เริ่มจากการออกแบบโครงร่าง กำหนดหน้าแนะนำตัว ทักษะ และผลงาน
+          จากนั้นพัฒนาและทดสอบให้รองรับทุกอุปกรณ์
+          เว็บไซต์นี้ทำให้ผมมีสามารถนำเสนอผลงานและศักยภาพด้านเทคโนโลยีของผมได้อย่างชัดเจนครับ</p>
+        <div class="tools-section">
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="bx bx-code-alt"></i>
+              <span>HTML</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-paint"></i>
+              <span>CSS</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-code-block"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+
+        <h3>Analysis of Factors Affecting Starting Salary</h3>
+        <img src="images/Project3.png" alt="Portfolio Website">
+        <p>โปรเจ็กต์นี้มาจากความสนใจของผมในการวิเคราะห์ข้อมูล
+          โดยใช้ Python บน Google Colab กับข้อมูลจาก Kaggle ผ่านขั้นตอนการทำความสะอาด วิเคราะห์เชิงสถิติและ
+          Visualization ก่อนสร้างโมเดล Linear Regression เพื่อหาปัจจัยที่มีผลต่อเงินเดือนแรกเข้า
+          ผลการวิเคราะห์ทำให้ผมได้เห็นอิทธิพลของระดับการศึกษา ประสบการณ์ และเพศ
+          และเป็นแรงบันดาลใจให้ผมพัฒนาทักษะด้าน Data และ AI ต่อไปครับ</p>
+        <div class="tools-section">
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="bx bx-code-alt"></i>
+              <span>Google Colab</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-paint"></i>
+              <span>Python</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-code-block"></i>
+              <span>Kaggle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+
+        <h3>Jump Sup</h3>
+        <img src="images/Project4.png" alt="Portfolio Website">
+        <p>ผมได้แรงบันดาลใจจากการทำข้อสอบ TGAT1 แล้วพบว่าคลังคำศัพท์ของตนเองยังน้อย ผมจึงพัฒนาเว็บไซต์ Jump Sup
+          เพื่อช่วยจำศัพท์ผ่านการเล่นเกมและตอบคำถาม ทำให้การเรียนรู้สนุกขึ้นและคะแนนดีขึ้นด้วยครับ
+          จากการพัฒนาเว็บไซต์นี้
+          ผมได้เรียนรู้การใช้ JavaScript อย่างลึกซึ้ง ทั้งด้านฟังก์ชันซับซ้อนและการส่งข้อความแจ้งปัญหาผ่านอีเมล
+          ปัจจุบันผมมีแผนจะพัฒนา Jump Sup ให้สามารถล็อกอินและติดตามผลการวิเคราะห์ของผู้ใช้ได้ รวมถึง
+          ให้คนอื่นที่มีปัญหาในการจำศัพท์สามารถใช้งานและเรียนรู้ได้อย่างเพลิดเพลินเช่นเดียวกับผมครับ</p>
+        <div class="tools-section">
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="bx bx-code-alt"></i>
+              <span>HTML</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-paint"></i>
+              <span>CSS</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-code-block"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-code-block"></i>
+              <span>EmailJS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+
+        <h3>The use of AI in the justice process</h3>
+        <img src="images/Project5.png" alt="Portfolio Website">
+        <p>โครงงานนี้ศึกษาความเป็นไปได้ในการนำ AI มาใช้ในกระบวนการยุติธรรม เพื่อวิเคราะห์ข้อดี ข้อจำกัด
+          และผลกระทบต่อระบบตุลาการ โดยเก็บข้อมูลจากนักเรียนมัธยมปลาย 46 คน และนิติกร 1 ท่าน พบว่าผู้ตอบส่วนใหญ่เห็นว่า
+          AI สามารถช่วยสนับสนุนการทำงานของศาลได้อย่างมีประสิทธิภาพ ทั้งในด้านการจัดการข้อมูล การวิเคราะห์
+          และการตัดสินคดีบางประเภท จากการทำโครงงานนี้ ผมได้เรียนรู้กระบวนการวิจัย ข้อมูลเบื้องต้นเกี่ยวกับปัญญาประดิษฐ์
+          การทำงานเป็นทีม
+          และการนำเสนอผลงานต่อคณะกรรมการผู้เชี่ยวชาญครัย</p>
+        <div class="tools-section">
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="bx bx-code-alt"></i>
+              <span>Word</span>
+            </div>
+            <div class="tool-item">
+              <i class="bx bx-code-alt"></i>
+              <span>Internet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- เพิ่มอื่นๆ ในรูปแบบเดียวกัน -->
+    </div>
+  </section>
+
+  <section class="future-projects" id="future-projects">
+    <h2 class="heading">Future <span>Projects</span></h2>
+    <div class="future-container">
+      <div class="future-box">
+        <i class="bx bx-brain"></i>
+        <h3>Student Performance Factors</h3>
+        <p>ด้วยความที่ผมได้ลองเรียนรู้เกี่ยวกับสายงาน data science
+          ทำให้ผมอยากลองศึกษาและวิเคราะห์ข้อมูลให้เกิดประโยชน์กับทุกคนที่ได้มีโอกาสได้ใช้งานระบบของผม</p>
+        <p>
+          ผมวางแผนไว้ว่าต้องการที่จะสร้างเว็บไซต์ที่สามารถวิเคราะห์ประสิทธิภาพการเรียนรู้ได้จากการเก็บข้อมูลกิจวัตรประจำวันที่ทำให้แต่ละวัน
+          ไม่ว่าจะเป็นช่วงโมงการนอน ช่วงโมงการเรียน การมีส่วนช่วยจากผู้ปกครอง การเข้าถึงอินเตอร์เน็ตและปัจจัยอื่น ๆ
+          เพื่อให้สามารถศึกษาได้ว่าหากทำกิจวัตรเช่นนี้บ่อยครั้ง
+          ก็อาจส่งผลให้มีแนวโน้มของประสิทธิภาพการเรียนรู้ไปในทางที่ดีขึ้นได้เพื่มเป็นประโยชน์สำหรับนักเรียน
+          นักศึกษาหรือบุคคลทั่วไป</p>
+        <div class="status">อยู่ระหว่างการศึกษา</div>
+      </div>
+
+      <div class="future-box">
+        <i class="bx bx-mobile-landscape"></i>
+        <h3>AI Study Buddy</h3>
+        <p>ผมอยากลองเรียนรู้เกี่ยวกับการทำงานของ AI และ Natural Language Processing
+          โดยตั้งใจพัฒนาระบบผู้ช่วยการเรียนรู้ที่สรุปเนื้อหาจาก
+          PDF หรือโน้ตเรียนอัตโนมัติ ระบบจะประมวลผลข้อความและสกัดสาระสำคัญออกมาให้ง่ายต่อการเข้าใจ เช่น flashcard
+          สำหรับทบทวน หรือ quiz เพื่อทดสอบความเข้าใจทันที</p>
+        <p>ผมวางแผนว่าจะใช้เทคนิคด้าน NLP และ machine learning มาช่วยในการตัดสินใจว่าเนื้อหาส่วนไหนสำคัญ
+          ควรสรุปเป็นข้อความสั้น ๆ
+          หรือควรถูกแปลงเป็นคำถามแบไหน เพื่อให้ผู้ใช้ได้รับสาระสำคัญที่ตรงประเด็น
+          ไม่ยาวจนเกินไปแต่ยังคงครบถ้วนต่อความเข้าใจ
+          ระบบนี้จะช่วยให้นักเรียนหรือผู้ใช้ทั่วไปไม่ต้องเสียเวลาอ่านเอกสารยาว ๆ ซ้ำไปมา
+          แต่สามารถโฟกัสที่จุดสำคัญและทบทวนได้อย่างมีประสิทธิภาพ ทำให้การเรียนรู้มีความกระชับ เร็วขึ้น
+          และตอบโจทย์ความต้องการของผู้เรียนในยุคดิจิทัล</p>
+        <div class="status">อยู่ระหว่างการศึกษา</div>
+      </div>
+
+      <div class="future-box">
+        <i class="bx bx-line-chart"></i>
+        <h3>My School Planner 2.0</h3>
+        <p>จากที่ผมได้สร้างแอป My School Planner ผมตั้งใจพัฒนาต่อยอดด้วย AI
+          เพื่อวิเคราะห์พฤติกรรมการเรียนรู้และการใช้เวลา
+          ระบบจะเก็บข้อมูลกิจกรรม เช่น การบ้าน การสอบ ช่วงโมงเรียน และเวลาพักผ่อน
+          เพื่อนำมาวิเคราะห์หาความสัมพันธ์ระหว่างเวลาและประสิทธิภาพการเรียน
+          แล้วสร้างคำแนะนำตารางที่เหมาะสมที่สุด เป้าหมายคือช่วยผู้ใช้รักษาสมดุลระหว่างการเรียนกับการพักผ่อนความเครียด
+          และเพิ่มประสิทธิภาพการเรียนรู้
+        </p>
+        <p>ทั้งนี้เมื่อผมสามารถสร้างได้สำเร็จแล้ว ผมตั้งใจที่จะพัฒนาต่อยอดให้อยู่ในรูปแบบของเว็บไซต์ที่ใช้งานได้จริง
+          เพื่อเปิดโอกาสให้ผู้คนทั่วไปสามารถเข้ามาทดลองใช้และได้รับประโยชน์จากโปรแกรมที่ผมสร้างขึ้น
+          ผมอยากให้เว็บไซต์นี้เป็นพื้นที่ที่ทุกคนเข้าถึงได้ง่าย ใช้งานสะดวก
+          และสามารถนำผลลัพธ์ที่ได้ไปปรับใช้ในชีวิตประจำวันและยังสามารถช่วยพัฒนาความสามารถของผู้ใช้งานได้ครับ</p>
+        <div class="status">อยู่ระหว่างการศึกษา</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
